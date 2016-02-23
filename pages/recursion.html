@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/recursion.js"></script>
+		<title>Test Page</title>
+	</head>
+	<body>
+		<style>
+			section{
+				width: 30vw;
+				display: flex;
+				justify-content: space-between;
+			}
+			section > div > main {
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				flex-direction: column;
+				height: 12vh;
+				border-bottom: 3px solid black;
+			}
+			section > div > main > div{
+				width: 100%;
+				height:3vh;
+			}
+			.disc-1{
+				width: 40%;
+				background-color: red;
+			}
+			.disc-2{
+				width: 60%;
+				background-color: yellow;
+			}
+			.disc-3{
+				width: 80%;
+				background-color: blue;
+			}
+			.disc-4{
+				width: 100%;
+				background-color: orange;
+			}
+		</style>
+		<p>CONSOLE JA :)</p>
+		<img src="../img/tower_of_hanoi_4.gif"/>
+
+		<section>
+			<div id="source">
+				<header><h6>Source</h6></header>
+				<main>
+					<div class="disc-1"></div>
+				</main>
+
+			</div>
+			<div id="aux">
+				<header><h6>Auxiliar</h6></header>
+				<main>
+					<div class="disc-2"></div>
+				</main>
+			</div>
+			<div id="dest">
+				<header><h6>Destination</h6></header>
+				<main>
+					<div class="disc-3"></div>
+					<div class="disc-4"></div>
+				</main>
+			</div>
+		</section>
+
+	</body>
+</html>

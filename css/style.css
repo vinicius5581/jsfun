@@ -1,0 +1,21 @@
+body{
+	display: flex;
+	align-items: center;
+	max-height: 100vh;
+}
+a{
+	display: block;
+	border: 1px solid lightblue;
+	width: 15rem;
+	line-height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: .5rem;
+	text-decoration: none;
+}
+
+a:hover{
+	background: lightblue;
+}
